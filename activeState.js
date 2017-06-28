@@ -2,10 +2,8 @@
 $(function() {
 
 	//highlight the current nav
-	$("#web a:contains('Web')").parent().addClass('active');
-	$("#graphic a:contains('Graphic')").parent().addClass('active');
-	$("#illustration a:contains('Illustration')").parent().addClass('active');
-	$("#contact a:contains('Contact')").parent().addClass('active');
+	$("#current a:contains('Current Issue')").parent().addClass('active');
+	$("#past a:contains('Past Issue')").parent().addClass('active');
 		
 	/*
 	if($("#photographer_pack a:contains('Photographer\'s Package')").parent().hasClass('active')){
