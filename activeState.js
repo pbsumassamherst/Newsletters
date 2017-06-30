@@ -3,7 +3,9 @@ $(function() {
 
 	//highlight the current nav
 	$("#current a:contains('Current Issue')").parent().addClass('active');
-	$("#past a:contains('Past Issue')").parent().addClass('active');
+	/* 
+	$("#past a:contains('Past Issues')").parent().addClass('active');
+	*/
 		
 	/*
 	if($("#photographer_pack a:contains('Photographer\'s Package')").parent().hasClass('active')){
