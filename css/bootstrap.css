@@ -6896,6 +6896,12 @@ button.close {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.rightPadding {
+  padding-right: 20px;
+}
+.leftPadding {
+  padding-left: 20px;
+}
 .bottomPadding {
   padding-bottom: 20px;
 }
