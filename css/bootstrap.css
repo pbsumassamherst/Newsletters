@@ -6880,6 +6880,7 @@ button.close {
 	padding-bottom: 20px;
 }
 .fullwidthHeader {
+  background-image: url(../images/header_back_alt.png);	
   background-size: cover;
 }
 .fullwidthFooter {
@@ -6950,6 +6951,10 @@ button.close {
   .container {
     width: 920px;
   }
+.fullwidthHeader {
+  background-image: url(../images/header_back.png);	
+  background-size: cover;
+}
 }
 body {
 	font-size: 16px;
