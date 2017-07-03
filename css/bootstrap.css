@@ -6880,6 +6880,7 @@ button.close {
 	padding-bottom: 20px;
 }
 .fullwidthHeader {
+  background-image: url(../images/header_back_alt.png);	
   background-size: cover;
 }
 .fullwidthFooter {
@@ -6950,10 +6951,24 @@ button.close {
   .container {
     width: 920px;
   }
+.fullwidthHeader {
+  background-image: url(../images/header_back.png);	
+  background-size: cover;
+}
 }
 body {
-	font-size: 16px;
+  font-family: 'Rubik', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
 	}  
 .smallText {
 	font-size: 12px;
 	}	
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 18px;
+  border-left: 5px solid #eee;
+}
